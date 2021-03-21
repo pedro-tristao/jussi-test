@@ -1,7 +1,7 @@
 {
-  "name": "Template-de-Ambiente-de-Desenvolvimento-React",
+  "name": "jussi-test",
   "version": "1.0.0",
-  "description": "Template de desenvolvimento em React e SASS configurado com Webpack",
+  "description": "Projeto teste para vaga de emprego na Jüssi | The Business Agency.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
