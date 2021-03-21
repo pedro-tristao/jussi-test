@@ -1,2 +1,2 @@
-# Template de Ambiente de Desenvolvimento React
- Template de desenvolvimento em React e SASS configurado com Webpack
+# Projeto teste para vaga de emprego na Jüssi | The Business Agency."
+ Projeto teste para vaga de emprego na Jüssi | The Business Agency."
