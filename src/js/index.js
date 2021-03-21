@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/app-component/App';
+import HeaderDesk from './components/Header-component/Header';
 import '../scss/index.scss';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<HeaderDesk />, document.getElementById('root'));
