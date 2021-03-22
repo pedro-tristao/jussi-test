@@ -16,6 +16,6 @@ para criar a pasta **dist** e logo após execute **npm run start**;
 
 ## Pré-Requisitos
 
-* Node - http://nodejs.org/
+* Node - http://nodejs.org/ (Use 12.16.1)
 * Git - http://git-scm.com/
 
