@@ -3,6 +3,7 @@ import logo from '../../../img/logo.svg';
 import {Header} from './HeaderDesk-styles'
 import {LogoNav} from './HeaderDesk-styles'
 import {SearchLogin} from './HeaderDesk-styles'
+import {Link} from 'react-scroll'
 
 function HeaderDesk() {
   return (
@@ -12,10 +13,10 @@ function HeaderDesk() {
                 <img src={logo} alt="jussi-logo" />
             </a>
             <a href="">
-                <p>Nossas soluções</p>
+                <p><Link  to="solutions" spy={true} smooth={true}>Nossas soluções</Link></p>
             </a>
             <a href="">
-                <p>Conheça a Jüssi</p>
+                <p><Link  to="weAre" spy={true} smooth={true}>Conheça a Jüssi</Link></p>
             </a>
         </LogoNav>
         <SearchLogin>

@@ -10,8 +10,8 @@ import {ImgJussi} from './WeAreJussi-styles'
 
 function WeAreJussi() {
     return (
-        <Background>
-            <WeAre>
+        <Background >
+            <WeAre id='weAre'>
                 <TextJussi>
                     <TittleJussi>
                         <h2>

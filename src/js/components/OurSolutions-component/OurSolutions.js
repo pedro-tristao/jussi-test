@@ -10,7 +10,7 @@ import product4 from '../../../img/product-4.png'
 
 function OurSolutions() {
     return (
-        <Solutions>
+        <Solutions id='solutions' >
             <TittleSolutions>
                 <h2>Nossas Soluções</h2>
             </TittleSolutions>
