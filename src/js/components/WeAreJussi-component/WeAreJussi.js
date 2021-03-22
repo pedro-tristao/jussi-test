@@ -36,9 +36,11 @@ function WeAreJussi() {
                         </p>
                     </ParagraphJussi>
                     <CtaJussi>
-                        <p>
-                            Conheça a Jüssi
-                        </p>
+                        <a href='https://jussi.com.br/'>
+                            <p>
+                                Conheça a Jüssi
+                            </p>
+                        </a>
                     </CtaJussi>
                 </TextJussi>
                 <ImgJussi>

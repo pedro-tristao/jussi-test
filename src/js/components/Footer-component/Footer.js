@@ -14,14 +14,14 @@ function Footer() {
                 <img src={wppCompany} alt=''/>
             </WppComp>
             <SocialMedia>
-                <a href='' target='__blank'>
-                    <img src={facebook} alt=''/>
+                <a href='https://www.facebook.com/agencia.jussi' target='__blank'>
+                    <img src={facebook} alt='Facebook'/>
                 </a>
-                <a href='' target='__blank'>
-                    <img src={instagram} alt=''/>
+                <a href='https://www.instagram.com/jussi/' target='__blank'>
+                    <img src={instagram} alt='Instagram'/>
                 </a>
-                <a href='' target='__blank'>
-                    <img src={linkedin} alt=''/>
+                <a href='https://www.linkedin.com/feed/' target='__blank'>
+                    <img src={linkedin} alt='LinkedIn'/>
                 </a>
             </SocialMedia>
         </FooterWrap>

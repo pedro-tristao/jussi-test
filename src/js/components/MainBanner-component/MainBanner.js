@@ -6,6 +6,7 @@ import ProductComponent from './ProductComponent';
 import geladeira from '../../../img/geladeira.png';
 import batedeira from '../../../img/batedeira.png';
 import blackLabel from '../../../img/black-label.png';
+import {Link} from 'react-scroll';
 
 
 function BannerMain() {
@@ -23,7 +24,7 @@ function BannerMain() {
                     loja ou migrar de plataforma?
                 </p>
                 <a href=''>
-                    <span>Veja nossas soluções</span>
+                    <span><Link  to="solutions" spy={true} smooth={true}>Veja nossas soluções</Link></span>
                 </a>
             </TextBanner>
             <MainProduct>

@@ -52,6 +52,7 @@ export const EmailInput = styled.div `
         border: none;
         font-weight: bold;
         border-bottom: 1px solid #03FFA5;
+        cursor: pointer;
         &:hover {
             background: #03FFA5;
             color: #000000;
