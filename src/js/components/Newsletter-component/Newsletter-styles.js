@@ -10,6 +10,7 @@ export const NewsletterWrap = styled.div `
         font-weight: bold;
         font-size: 32px;
         line-height: 40px;
+        padding: 0 15px;
         &::before {
             content: '//';
             font-size: inherit;

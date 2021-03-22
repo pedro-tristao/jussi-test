@@ -10,6 +10,7 @@ export const Contact = styled.div `
         font-size: 32px;
         line-height: 40px;
         text-transform: uppercase;
+        padding: 0 15px;
         @media(max-width: 1024px) {
             font-size: 22px;
             line-height: 24px;

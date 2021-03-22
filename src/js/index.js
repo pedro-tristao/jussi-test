@@ -8,6 +8,7 @@ import OurSolutions from './components/OurSolutions-component/OurSolutions';
 import WeAreJussi from './components/WeAreJussi-component/WeAreJussi';
 import ContactInfo from './components/ContactInfo-component/ContactInfo';
 import Newsletter from './components/Newsletter-component/Newsletter';
+import Footer from './components/Footer-component/Footer'
 import '../scss/index.scss';
 
 function App() {
@@ -24,7 +25,10 @@ function App() {
                 <WeAreJussi/>
                 <ContactInfo/>
                 <Newsletter/>
-            </main>
+            </main>,
+            <footer>
+                <Footer/>
+            </footer>
         ]
 
     );
