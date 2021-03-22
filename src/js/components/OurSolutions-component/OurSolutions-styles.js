@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const Solutions = styled.div `
-    margin: 16px;
+    width: fit-content;
+    margin: 0 auto;
     @media(max-width: 1024px) {
-
+        margin-top: 50px;
     }
 `;
 export const TittleSolutions = styled.div `
@@ -23,6 +24,7 @@ export const TittleSolutions = styled.div `
         h2 {
             font-size: 20px;
             line-height: 23px;
+            margin-bottom: 60px;
         }
     }
 `;

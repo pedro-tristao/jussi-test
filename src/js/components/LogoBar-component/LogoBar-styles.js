@@ -17,6 +17,8 @@ export const Wrapper = styled.div `
     margin: 0 auto;
     @media(max-width: 1024px) {
         display: block;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 `;
 
