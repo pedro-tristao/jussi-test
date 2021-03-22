@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from '../../../img/logo.svg';
-import {Header} from '../Header-component/Header-styles'
-import {LogoNav} from '../Header-component/Header-styles'
-import {SearchLogin} from '../Header-component/Header-styles'
+import {Header} from './HeaderDesk-styles'
+import {LogoNav} from './HeaderDesk-styles'
+import {SearchLogin} from './HeaderDesk-styles'
 
 function HeaderDesk() {
   return (

@@ -1,0 +1,106 @@
+#page-wrap {
+    text-align: center;
+
+    /* Prevent sidebar from showing a scrollbar on page */
+    overflow: auto;
+}
+/* Individual item */
+.bm-item {
+    display: inline-block;
+    /* Our sidebar item styling */
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #000000;
+    transition: color 0.2s;
+    text-align: center;
+    font-weight: bolder;
+    outline: none;
+}
+
+.menu-item-search {
+    display: flex !important;
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+.menu-item-input {
+    border: 1px solid #F2F2F2;
+    border-radius: 24px;
+    box-sizing: border-box;
+    background: #ffffff;
+    padding-left: 16px;
+    padding-right: 26px;
+    display: block;
+    &::placeholder {
+        color: #EE0E7D;
+    }
+    &:focus {
+        color: #EE0E7D;
+        outline: none;
+        background: #f1f1f1;
+    }
+    &:hover{
+        background: #f1f1f1;
+    }
+}
+.input-search {
+    &::after {
+        content: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M21 21L16.65 16.65' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+        position: relative;
+        z-index: 1001;
+        right: 137%;
+        top: 2%;
+        cursor: pointer;
+    }
+}
+/* Change color on hover */
+.bm-item:hover {
+    color: #000000;
+}
+/* The rest copied directly from react-burger-menu docs */
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: 10px;
+    top: 20px;
+}
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #000000;
+}
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #000000;
+}
+/* General sidebar styles */
+.bm-menu {
+  background: #03FFA5;
+  font-size: 1.45em;
+  position: relative !important;
+  width: 100% !important;
+}
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  height: fit-content !important;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+

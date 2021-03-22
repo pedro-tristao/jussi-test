@@ -1,13 +1,17 @@
 import styled from 'styled-components';
 
-export const Header = styled.header `
-    height: 80px;
+export const Header = styled.div `
+    height: 50px;
     margin: 20px 0;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     width: 100%;
     background: #ffffff;
+    display: block;
+    @media(max-width: 1024px) {
+        display: none;
+    }
 `;
 
 export const LogoNav = styled.div `
