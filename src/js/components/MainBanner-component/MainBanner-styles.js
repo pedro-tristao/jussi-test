@@ -101,6 +101,7 @@ export const Product = styled.div `
         margin-top: 118px;
         @media(max-width: 1024px) {
             margin: 0 auto !important;
+            margin-bottom: 16px !important;
         }
     }
     &:nth-child(2) {
@@ -108,6 +109,7 @@ export const Product = styled.div `
         z-index: 2;
         @media(max-width: 1024px) {
             margin: 0 auto !important;
+            margin-bottom: 16px !important;
             z-index: 1;
         }
     }
@@ -116,6 +118,7 @@ export const Product = styled.div `
         margin-left: 130px;
         @media(max-width: 1024px) {
             margin: 0 auto !important;
+            margin-bottom: 16px !important;
         }
     }
 `;
