@@ -1,8 +1,8 @@
 import React from 'react';
-import {MainBanner} from './MainBanner-styles'
-import {TextBanner} from './MainBanner-styles'
-import {MainProduct} from './MainBanner-styles'
-import ProductComponent from './ProductComponent'
+import {MainBanner} from './MainBanner-styles';
+import {TextBanner} from './MainBanner-styles';
+import {MainProduct} from './MainBanner-styles';
+import ProductComponent from './ProductComponent';
 import geladeira from '../../../img/geladeira.png';
 import batedeira from '../../../img/batedeira.png';
 import blackLabel from '../../../img/black-label.png';
@@ -34,4 +34,5 @@ function BannerMain() {
         </MainBanner>
     );
 }
+
 export default BannerMain;

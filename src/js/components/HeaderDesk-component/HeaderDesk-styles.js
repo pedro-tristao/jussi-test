@@ -13,7 +13,6 @@ export const Header = styled.div `
         display: none;
     }
 `;
-
 export const LogoNav = styled.div `
     display: flex;
     margin-left: 2%;
@@ -25,7 +24,6 @@ export const LogoNav = styled.div `
         }
     }
 `;
-
 export const SearchLogin = styled.div `
     display: flex;
     margin-right: 2%;

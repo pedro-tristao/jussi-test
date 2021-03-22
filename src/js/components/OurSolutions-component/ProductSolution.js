@@ -1,10 +1,10 @@
 import React from 'react';
-import {Product} from './OurSolutions-styles'
-import {ImgProduct} from './OurSolutions-styles'
-import {NameProduct} from './OurSolutions-styles'
-import {DescriptionProduct} from './OurSolutions-styles'
-import {FeatureProduct} from './OurSolutions-styles'
-import {CtaProduct} from './OurSolutions-styles'
+import {Product} from './OurSolutions-styles';
+import {ImgProduct} from './OurSolutions-styles';
+import {NameProduct} from './OurSolutions-styles';
+import {DescriptionProduct} from './OurSolutions-styles';
+import {FeatureProduct} from './OurSolutions-styles';
+import {CtaProduct} from './OurSolutions-styles';
 
 function ProductSolutions(props) {
     return (
@@ -31,4 +31,5 @@ function ProductSolutions(props) {
         </Product>
     );
 }
+
 export default ProductSolutions;

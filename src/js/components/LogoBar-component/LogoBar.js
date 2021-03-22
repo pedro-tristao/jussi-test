@@ -3,10 +3,10 @@ import logoBrastemp from '../../../img/logo-brastemp.png';
 import logoCompraCerta from '../../../img/logo-compra-certa.png';
 import logoConsul from '../../../img/logo-consul.png';
 import logoTheBar from '../../../img/logo-thebar.png';
-import {BarLogos} from '../LogoBar-component/LogoBar-styles'
-import {Wrapper} from '../LogoBar-component/LogoBar-styles'
-import {TextLogos} from '../LogoBar-component/LogoBar-styles'
-import {ImgLogos} from '../LogoBar-component/LogoBar-styles'
+import {BarLogos} from '../LogoBar-component/LogoBar-styles';
+import {Wrapper} from '../LogoBar-component/LogoBar-styles';
+import {TextLogos} from '../LogoBar-component/LogoBar-styles';
+import {ImgLogos} from '../LogoBar-component/LogoBar-styles';
 
 
 function LogoBar() {
@@ -36,4 +36,5 @@ function LogoBar() {
         </BarLogos>
     );
 }
+
 export default LogoBar;

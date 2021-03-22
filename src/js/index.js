@@ -7,7 +7,7 @@ import LogoBar from './components/LogoBar-component/LogoBar';
 import OurSolutions from './components/OurSolutions-component/OurSolutions';
 import WeAreJussi from './components/WeAreJussi-component/WeAreJussi';
 import ContactInfo from './components/ContactInfo-component/ContactInfo';
-import Newsletter from './components/Newsletter-component/Newsletter'
+import Newsletter from './components/Newsletter-component/Newsletter';
 import '../scss/index.scss';
 
 function App() {
@@ -17,18 +17,19 @@ function App() {
                 <HeaderDesk/>
                 <HeaderMob/>
             </header>,
-            <BannerMain/>,
-            <LogoBar/>,
-            <OurSolutions/>,
-            <WeAreJussi/>,
-            <ContactInfo/>,
-            <Newsletter/>
+            <main>
+                <BannerMain/>
+                <LogoBar/>
+                <OurSolutions/>
+                <WeAreJussi/>
+                <ContactInfo/>
+                <Newsletter/>
+            </main>
         ]
 
     );
 
 }
-
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App/>, rootElement);

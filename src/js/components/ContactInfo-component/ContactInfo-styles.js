@@ -17,7 +17,6 @@ export const Contact = styled.div `
     }
 
 `;
-
 export const Email = styled.div `
     p {
         font-size: 32px;

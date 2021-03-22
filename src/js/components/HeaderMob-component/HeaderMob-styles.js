@@ -12,7 +12,6 @@ export const Header = styled.div `
         display: block;
     }
 `;
-
 export const LogoNav = styled.div `
     img {
         margin: 0 auto;
@@ -20,7 +19,6 @@ export const LogoNav = styled.div `
         padding-top: 10px;
     }
 `;
-
 export const SearchLogin = styled.div `
     position: absolute;
 

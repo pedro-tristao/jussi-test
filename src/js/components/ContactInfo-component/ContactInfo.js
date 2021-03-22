@@ -17,4 +17,5 @@ function ContactInfo() {
         </Contact>
     );
 }
+
 export default ContactInfo;

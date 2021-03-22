@@ -6,7 +6,7 @@ function Newsletter() {
     return (
         <NewsletterWrap>
             <p>
-            receba novidades da nossa área 
+            receba novidades da nossa área
             de produtos digitais.
             </p>
             <EmailInput>
@@ -18,4 +18,5 @@ function Newsletter() {
         </NewsletterWrap>
     );
 }
+
 export default Newsletter;

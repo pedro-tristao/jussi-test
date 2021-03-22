@@ -15,4 +15,5 @@ function ProductComponent(props) {
     </Product>
   );
 }
+
 export default ProductComponent;

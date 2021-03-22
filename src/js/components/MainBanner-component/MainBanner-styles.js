@@ -12,7 +12,6 @@ export const MainBanner = styled.div `
         height: fit-content;
     }
 `;
-
 export const TextBanner = styled.div `
     width: 50%;
     margin-left: 15%;
@@ -72,7 +71,6 @@ export const TextBanner = styled.div `
     }
 
 `;
-
 export const MainProduct = styled.div `
     width: 50%;
     display: flex;
@@ -83,7 +81,6 @@ export const MainProduct = styled.div `
         margin:0;
     }
 `;
-
 export const Product = styled.div `
     width: 209px;
     height: 271px;
@@ -122,7 +119,6 @@ export const Product = styled.div `
         }
     }
 `;
-
 export const ImgLink = styled.a `
     img {
         margin: 0 auto;
@@ -131,7 +127,6 @@ export const ImgLink = styled.a `
         min-height: 190px
     }
 `;
-
 export const BtnLink = styled.a `
     p {
         color: #EE0E7D;

@@ -1,12 +1,12 @@
 import React from 'react';
-import jussiImg from '../../../img/image-jussi.png';
-import {Background} from './WeAreJussi-styles'
-import {WeAre} from './WeAreJussi-styles'
-import {TextJussi} from './WeAreJussi-styles'
-import {TittleJussi} from './WeAreJussi-styles'
-import {ParagraphJussi} from './WeAreJussi-styles'
-import {CtaJussi} from './WeAreJussi-styles'
-import {ImgJussi} from './WeAreJussi-styles'
+import jussiImg from '../../../img/image-jussi.png';;
+import {Background} from './WeAreJussi-styles';
+import {WeAre} from './WeAreJussi-styles';
+import {TextJussi} from './WeAreJussi-styles';
+import {TittleJussi} from './WeAreJussi-styles';
+import {ParagraphJussi} from './WeAreJussi-styles';
+import {CtaJussi} from './WeAreJussi-styles';
+import {ImgJussi} from './WeAreJussi-styles';
 
 function WeAreJussi() {
     return (
@@ -48,4 +48,5 @@ function WeAreJussi() {
         </Background>
     );
 }
+
 export default WeAreJussi;

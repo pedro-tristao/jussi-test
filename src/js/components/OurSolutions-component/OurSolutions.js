@@ -1,12 +1,12 @@
 import React from 'react';
-import {Solutions} from './OurSolutions-styles'
-import {TittleSolutions} from './OurSolutions-styles'
-import {WrapSolutions} from './OurSolutions-styles'
-import ProductSolutions from './ProductSolution'
-import product1 from '../../../img/product-1.png'
-import product2 from '../../../img/product-2.png'
-import product3 from '../../../img/product-3.png'
-import product4 from '../../../img/product-4.png'
+import {Solutions} from './OurSolutions-styles';
+import {TittleSolutions} from './OurSolutions-styles';
+import {WrapSolutions} from './OurSolutions-styles';
+import ProductSolutions from './ProductSolution';
+import product1 from '../../../img/product-1.png';
+import product2 from '../../../img/product-2.png';
+import product3 from '../../../img/product-3.png';
+import product4 from '../../../img/product-4.png';
 
 function OurSolutions() {
     return (
@@ -23,4 +23,5 @@ function OurSolutions() {
         </Solutions>
     );
 }
+
 export default OurSolutions;

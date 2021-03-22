@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from '../../../img/logo.svg';
-import {Header} from './HeaderDesk-styles'
-import {LogoNav} from './HeaderDesk-styles'
-import {SearchLogin} from './HeaderDesk-styles'
-import {Link} from 'react-scroll'
+import {Header} from './HeaderDesk-styles';
+import {LogoNav} from './HeaderDesk-styles';
+import {SearchLogin} from './HeaderDesk-styles';
+import {Link} from 'react-scroll';
 
 function HeaderDesk() {
   return (
@@ -32,4 +32,5 @@ function HeaderDesk() {
     </Header>
   );
 }
+
 export default HeaderDesk;

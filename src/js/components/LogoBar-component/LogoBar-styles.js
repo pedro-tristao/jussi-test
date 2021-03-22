@@ -10,7 +10,6 @@ export const BarLogos = styled.div `
         height: fit-content;
     }
 `;
-
 export const Wrapper = styled.div `
     display: flex;
     width: fit-content;
@@ -21,7 +20,6 @@ export const Wrapper = styled.div `
         padding-bottom: 30px;
     }
 `;
-
 export const TextLogos = styled.div `
     margin-right: 108px;
     margin-block-start: 2em;
@@ -45,7 +43,6 @@ export const TextLogos = styled.div `
         text-align: center;
     }
 `;
-
 export const ImgLogos = styled.div `
     display: flex;
     img {

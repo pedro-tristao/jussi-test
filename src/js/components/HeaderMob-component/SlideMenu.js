@@ -6,7 +6,7 @@ function FixMenuClick() {
     return (
       document.querySelector('.bm-overlay').click()
     );
-}
+};
 
 export default (props) => {
   return (

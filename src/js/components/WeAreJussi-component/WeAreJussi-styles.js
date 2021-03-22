@@ -11,8 +11,6 @@ export const Background = styled.div `
         padding-bottom: 0;
     }
 `;
-
-
 export const WeAre = styled.div `
     display: flex;
     width: fit-content;
@@ -23,7 +21,6 @@ export const WeAre = styled.div `
         display: block;
     }
 `;
-
 export const TextJussi = styled.div `
     @media(max-width: 1024px) {
         width: fit-content;

@@ -25,7 +25,6 @@ export const NewsletterWrap = styled.div `
     }
 
 `;
-
 export const EmailInput = styled.div `
     input {
         height: 35px;
