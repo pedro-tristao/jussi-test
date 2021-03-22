@@ -6,6 +6,7 @@ import BannerMain from './components/MainBanner-component/MainBanner';
 import LogoBar from './components/LogoBar-component/LogoBar';
 import OurSolutions from './components/OurSolutions-component/OurSolutions';
 import WeAreJussi from './components/WeAreJussi-component/WeAreJussi';
+import ContactInfo from './components/ContactInfo-component/ContactInfo'
 import '../scss/index.scss';
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
             <BannerMain/>,
             <LogoBar/>,
             <OurSolutions/>,
-            <WeAreJussi/>
+            <WeAreJussi/>,
+            <ContactInfo/>
         ]
 
     );
